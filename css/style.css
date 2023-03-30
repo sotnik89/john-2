@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'heebomedium';
     src: url('../fonts/heebo-medium-webfont.eot');
@@ -10,6 +9,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'heebobold';
     src: url('../fonts/heebo-bold-webfont.eot');
@@ -21,6 +21,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'heeboregular';
     src: url('../fonts/heebo-regular-webfont.eot');
@@ -32,26 +33,32 @@
     font-weight: normal;
     font-style: normal;
 }
+
 * {
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     padding-top: 27px;
 }
-.conteiner{
+
+.conteiner {
     max-width: 1032px;
     margin: auto
 }
-#navigation{
+
+#navigation {
     list-style: none;
     display: flex;
     justify-content: flex-end
 }
-header nav ul li{
+
+header nav ul li {
     margin-left: 33px;
 }
-header nav ul li a{
+
+header nav ul li a {
     font-family: 'heebomedium';
     font-size: 20px;
     line-height: 29px;
@@ -59,18 +66,22 @@ header nav ul li a{
     text-decoration: none;
     color: #000000;
 }
-.main_bunner{
+
+.main_bunner {
     padding-top: 140px;
     padding-bottom: 71px;
 }
-.main_bunner h1{
-    margin-bottom:40px;
+
+.main_bunner h1 {
+    margin-bottom: 40px;
     font-family: 'heebobold';
     font-size: 44px;
     line-height: 60px;
-    color: #21243D;"
+    color: #21243D;
+"
 }
-.main_bunner a{
+
+.main_bunner a {
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 500;
@@ -82,126 +93,268 @@ header nav ul li a{
     background: #FF6464;
     display: inline-block;
 }
-.main_bunner p{
-    margin-bottom:38px;
+
+.main_bunner p {
+    margin-bottom: 38px;
     font-family: 'heeboregular';
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
 }
-.sub_container{
-    max-width:858px;
+
+.sub_container {
+    max-width: 858px;
     margin: auto;
     display: flex;
     justify-content: space-between
 }
-.main_image{
+
+.main_image {
     max-width: 243px;
 }
-.main_image img{
-    max-width:100%;
-    display:block;
+
+.main_image img {
+    max-width: 100%;
+    display: block;
 }
-header nav ul li:hover{
+
+header nav ul li:hover {
     transform: scale(1.3);
     transition: 0.3s;
 }
-.main_bunner a:hover{
+
+.main_bunner a:hover {
     transform: rotate(360deg);
     transition: 0.5s;
 }
-.conteiner_a{
+
+/*post*/
+
+.post {
+    width: 100%;
+    min-height: 396px;
+    padding-top: 7px;
+    padding-bottom: 32px;
+    background-color: #EDF7FA;;
+}
+
+.sub_post {
+    margin: auto;
+    max-width: 856px;
+}
+
+.recent_posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent_posts h4 {
+    margin-top: 7px;
+    margin-bottom: 2px;
+    font-family: 'heeboregular';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.recent_posts a {
+    text-decoration: none;
+    margin-top: 27px;
+    margin-bottom: 22px;
+    font-family: 'heeboregular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+}
+
+.design {
+    display: flex;
+    justify-content: space-between;
+    max-width: 856px;
+}
+
+.design_system {
+    width: 418px;
+    height: 295px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.design_system h4 {
+    font-family: 'heebobold';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    padding-top: 24px;
+    padding-right: 21px;
+    padding-left: 23px;
+    margin-bottom: 17px;
+}
+
+.feb {
+    padding-left: 23px;
+    font-family: 'heeboregular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+.pattern {
+    font-family: 'heeboregular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+.design_system h5 {
+    font-family: 'heeboregular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding-left: 23px;
+}
+
+.figma:before {
+    content: "";
+    border-left: 1px solid #000000;
+    padding-left: 25px;
+    width: 1px;
+    height: 21px;
+}
+
+.design_system p {
+    font-family: 'heeboregular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    max-width: 368px;
+    margin-bottom: 7px;
+    margin-top: 11px;
+    padding-right: 27px;
+    padding-left: 23px;
+    box-sizing: border-box;
+}
+
+.icon {
+    display: flex;
+}
+
+/*container_a*/
+
+.conteiner_a {
     padding-top: 15px;
     padding-bottom: 32px
 }
-.sub_container_a{
+
+.sub_container_a {
     max-width: 858px;
     margin: auto;
 }
-.feature{
+
+.feature {
     margin-bottom: 22px;
     font-family: 'heeboregular';
     font-size: 22px;
     line-height: 60px;
-    color:#21243D
+    color: #21243D
 }
-.third_container_a{
-    width:100%;
+
+.third_container_a {
+    width: 100%;
     max-width: 246px;
 }
+
 .third_container_a img {
-    display:block;
+    display: block;
 }
-.third_container_a article{
+
+.third_container_a article {
     max-width: 594px;
 }
+
 /*.third_container_a article:nth-child(3) p{*/
 /*    max-width: 504px;*/
 /*}*/
-.second_container_a{
-    display:flex;
+.second_container_a {
+    display: flex;
     justify-content: space-between;
     margin-top: 32px;
 }
-.art{
+
+.art {
     margin-left: 18px
 }
-.designing{
+
+.designing {
     margin-bottom: 24px;
     font-family: 'heeboregular';
     font-size: 30px;
     line-height: 44px;
     line-height: 100%;
-    text-align:Left;
-    color:#21243D;
+    text-align: Left;
+    color: #21243D;
 }
-.year{
-    color:#FFFFFF;
+
+.year {
+    color: #FFFFFF;
     font-family: 'heebobold';
     font-size: 18px;
     line-height: 21px;
-     margin-right: 36px;
+    margin-right: 36px;
     background-color: #142850;
     padding-left: 10px;
     padding-right: 10px;
-    display:inline-block;
+    display: inline-block;
     border-radius: 20px;
 }
-.dashboard{
+
+.dashboard {
     font-family: 'heeboregular';
     font-size: 20px;
     line-height: 100%;
     color: #8695A4;
 }
-.second_container_a p{
+
+.second_container_a p {
     margin-top: 25px;
     font-family: 'heeboregular';
     font-size: 16px;
     line-height: 24px;
-    text-align: Left;
-    color:#21243D
+    text-align: left;
+    color: #21243D
 }
 
 
-.container_form{
+.container_form {
     padding-top: 69px;
-    padding-bottom:194px;
+    padding-bottom: 194px;
     background: #000000;
 }
-.sub_container_form{
+
+.sub_container_form {
     max-width: 564px;
     margin: auto;
     text-align: center
 }
-.name div:nth-child(2) input{
+
+.name div:nth-child(2) input {
     background: rgba(255, 255, 255, 0.2)
 }
-.Name{
+
+.Name {
     width: 100%;
     background: rgba(255, 255, 255, 0.18);
     padding-left: 31px;
     height: 57px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: 'Vollkorn';
     font-style: italic;
     font-weight: 400;
@@ -210,12 +363,13 @@ header nav ul li:hover{
     text-align: left;
     color: #FFFFFF
 }
-.email{
+
+.email {
     width: 100%;
     background: rgba(255, 255, 255, 0.2);
     padding-left: 31px;
     height: 57px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: 'Vollkorn';
     font-style: italic;
     font-weight: 400;
@@ -224,14 +378,16 @@ header nav ul li:hover{
     text-align: left;
     color: #FFFFFF;
 }
-.comment{
-    width:100%;
+
+.comment {
+    width: 100%;
     background: rgba(255, 255, 255, 0.2);
     padding-top: 17px;
     padding-left: 31px;
-    margin-bottom:22px;
+    margin-bottom: 22px;
     box-sizing: border-box;
-    height: 127px; resize:none;
+    height: 127px;
+    resize: none;
     font-family: 'Vollkorn';
     font-style: italic;
     font-weight: 400;
@@ -240,7 +396,8 @@ header nav ul li:hover{
     text-align: left;
     color: #FFFFFF
 }
-.Send_Message{
+
+.Send_Message {
     padding: 15px 60px;
     background-color: black;
     border: solid 1px #7EC4BD;
@@ -252,28 +409,34 @@ header nav ul li:hover{
     text-align: center;
     color: #8BCAC3;
 }
-.conteiner_f{
+
+.conteiner_f {
     padding-top: 51px;
     padding-bottom: 54px
 }
-.sub_container_f{
+
+.sub_container_f {
     max-width: 500px;
     margin: auto
 }
-.conteiner_f li{
+
+.conteiner_f li {
     list-style: none;
     margin-bottom: 26px;
 }
-footer ul{
-    display:flex;
+
+footer ul {
+    display: flex;
     justify-content: center;
 }
-footer ul li a{
+
+footer ul li a {
     margin-right: 17.5px;
     margin-left: 17.5px;
-    display:inline-block
+    display: inline-block
 }
-footer p{
+
+footer p {
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
