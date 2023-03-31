@@ -147,7 +147,7 @@ header nav ul li:hover {
 }
 
 .recent_posts h4 {
-align-items: center;
+    align-items: center;
     font-family: 'heeboregular';
     font-weight: 400;
     font-size: 22px;
@@ -189,14 +189,15 @@ align-items: center;
     margin-bottom: 17px;
 }
 
-.design_system span{
+.design_system span {
     font-family: 'heeboregular';
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #21243D;
 }
-.figma{
+
+.figma {
     margin-left: 25px;
 }
 
@@ -214,7 +215,7 @@ align-items: center;
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
-max-width: 368px;
+    max-width: 368px;
     margin-top: 11px;
 }
 
