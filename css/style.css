@@ -131,11 +131,9 @@ header nav ul li:hover {
 /*post*/
 
 .post {
-    width: 100%;
-    min-height: 396px;
     padding-top: 7px;
     padding-bottom: 32px;
-    background-color: #EDF7FA;;
+    background-color: #EDF7FA;
 }
 
 .sub_post {
@@ -149,8 +147,7 @@ header nav ul li:hover {
 }
 
 .recent_posts h4 {
-    margin-top: 7px;
-    margin-bottom: 2px;
+align-items: center;
     font-family: 'heeboregular';
     font-weight: 400;
     font-size: 22px;
@@ -172,15 +169,15 @@ header nav ul li:hover {
 .design {
     display: flex;
     justify-content: space-between;
-    max-width: 856px;
 }
 
 .design_system {
-    width: 418px;
-    height: 295px;
+    max-width: 418px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
     border-radius: 4px;
+    padding: 24px 21px 30px 23px;
+    box-sizing: border-box;
 }
 
 .design_system h4 {
@@ -189,36 +186,18 @@ header nav ul li:hover {
     font-size: 26px;
     line-height: 38px;
     color: #21243D;
-    padding-top: 24px;
-    padding-right: 21px;
-    padding-left: 23px;
     margin-bottom: 17px;
 }
 
-.feb {
-    padding-left: 23px;
+.design_system span{
     font-family: 'heeboregular';
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #21243D;
 }
-
-.pattern {
-    font-family: 'heeboregular';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-    color: #21243D;
-}
-
-.design_system h5 {
-    font-family: 'heeboregular';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-    color: #21243D;
-    padding-left: 23px;
+.figma{
+    margin-left: 25px;
 }
 
 .figma:before {
@@ -235,16 +214,8 @@ header nav ul li:hover {
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
-    max-width: 368px;
-    margin-bottom: 7px;
+max-width: 368px;
     margin-top: 11px;
-    padding-right: 27px;
-    padding-left: 23px;
-    box-sizing: border-box;
-}
-
-.icon {
-    display: flex;
 }
 
 /*container_a*/
